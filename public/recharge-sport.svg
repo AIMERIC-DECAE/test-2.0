@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Recharge Sport AquaDrop</title>
+  <desc id="desc">Pastille rafraîchissante avec couleurs mentholées et dynamiques.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D2E" />
+      <stop offset="100%" stop-color="#23B5D3" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#23B5D3" />
+      <stop offset="100%" stop-color="#1F6F57" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="44" fill="url(#bg)" />
+  <circle cx="250" cy="250" r="160" fill="rgba(255,255,255,0.08)" stroke="#C6A15B" stroke-width="4" />
+  <circle cx="250" cy="250" r="120" fill="url(#ring)" opacity="0.9" />
+  <g fill="#F7F5F0" opacity="0.9">
+    <rect x="230" y="130" width="40" height="220" rx="20" />
+    <rect x="130" y="240" width="240" height="40" rx="20" />
+  </g>
+</svg>
